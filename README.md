@@ -1,13 +1,15 @@
-# Optimizador-de-CV
-Aplicación de NLP para medir la similitud entre el texto de un CV y el de una vacante.
+This Jupyter Notebook uses NLP to help us improve our CV.
 
-La herramienta me permite comparar el texto de una vacante con mi CV y obtener:  
--Nubes de Palabras de la Vacante y del CV  
--Histogramas de Frecuencia con las ‘n’ palabras más frecuentes en la Vacante y en el CV  
--Lista de Palabras Comunes  
--% de Ajuste = n° palabras en común * 100 / n  
+Inputs
+-------
+- Job title
+- Job Description (text)
+- Candidate CV (text)
+- Number of words to find
 
-Los inputs son:  
--Texto de la vacante  
--Texto del CV del candidato  
--Número de palabras ‘n’ a buscar  
+Outputs
+-------
+- Word Clouds for Job Posting and Candidate CV
+- Frequency Chart with N-Most Frequent Words in Job Posting and in Candidate CV
+- List of N-Most common words found on both documents  
+- % fit = number of common words * 100 / n  
